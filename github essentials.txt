@@ -11,4 +11,5 @@ Para tornar o nosso repositorio local num repositorio remoto:
 		na branch master, que é a default
 
 
+O branch master é onde ficam registados todos os nossos commits. É onde guardamos os nossos progressos (comentados). 
 
