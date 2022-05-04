@@ -1,0 +1,8 @@
+Para clonar um repositorio do github:
+	- git clone link-do-repositorio
+
+
+Se fizermos git clone e dentro do nosso repositorio local clonado quisermos ver os commits todos ate aquele momento (naquele projeto), mesmo os commits nao tendo sido feitos por nós, é só darmos "git log"
+
+
+
