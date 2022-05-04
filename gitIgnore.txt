@@ -18,3 +18,4 @@ Para ignorarmos todos os ficheiros de um mesmo tipo:
 
 Depois disso é só fazer git add e ele já não passa os ficheiros que nao se quer divulgar
 
+
