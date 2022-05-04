@@ -1,0 +1,14 @@
+Para criar um repositório clicamos no + da pagina principal no nosso github
+
+
+
+Para tornar o nosso repositorio local num repositorio remoto:
+	- git remote add origin link_do_repo_online
+		onde origin é o nome do repo por padrão
+
+	- git push -u origin master 
+		isto "links" o repo local e remoto e mete no repo origin
+		na branch master, que é a default
+
+
+

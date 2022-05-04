@@ -1,0 +1,59 @@
+Para criar um repositório clicamos no + da pagina principal no nosso github
+
+
+
+Para tornar o nosso repositorio local num repositorio remoto:
+	- git remote add origin link_do_repo_online
+		onde origin é o nome do repo por padrão
+
+	- git push -u origin master 
+		isto "links" o repo local e remoto e mete no repo origin
+		na branch master, que é a default
+
+
+Para inicializar um repositório: 
+	- git init
+
+
+Para fazer tracking das mudanças nos ficheiro, precisamos de adicionar o ficheiro à staging area, que é um sítio intermediário para decidir que ficheiros queremos fazer commit
+
+
+Para verificar o status de todos os nossos ficheiros:
+	- git status
+	os ficheiros untracked estarão a vermelho
+
+
+Para começarmos a fazer tracking:
+	- git add file_name.extension
+	depois disto o ficheiro aparece a verde e já podemos fazer commit
+
+
+Para fazer commit e deixar uma mensagem:
+	- git commit -m "Mensagem a deixar"
+	
+	ajuda-nos a explicar quais mudanças houveram entre os dois commit
+	e as boas práticas dizem que as mensagens devem estar sempre no 
+	presente
+
+
+Para os detalhes dos commits usamos:
+	- git log : isso dá-nos a data, a mensagem do commit e quem fez
+
+
+Para adicionar todos os ficheiros do diretório à staging area:
+	- git add .
+
+
+
+Quando inicializamos um diretório e criamos lá ficheiros, esses mesmos ficheiros estão no "Working Directory", ou seja estão fora do controle do repositório. Para fazer tracking das mudanças dos ficheiros, ou seja, passar para a "staging area", usamos o comando "git add". Este passo é importante para nos ajudar a decidir o que queremos fazer tracking e o que não.
+Para metermos o file no repositório fazemos git commit.
+
+
+Para voltar à versão anterior do nosso ficheiro (voltando ao Working directory) usamos o comando especial "git checkout"
+
+
+
+Para descobrirmos quais as diferenças entre a versão alterada e a versão anterior:
+	- git diff ficheiro
+
+
