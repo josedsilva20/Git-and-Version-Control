@@ -1,0 +1,20 @@
+git ignore serve para escondermos do github os ficheiros que não queremos mostrar tais como passwords, APIkeys ou dsstorefiles (ficheiros com nossas preferências no computador como icones e etc)
+
+
+Para termos um ficheiro do tipo gitgnore:
+	- touch .gitignore
+		o ficheiro deve ter exactamente esse nome, senão não serve
+
+
+Se quisermos esconder um ficheiro temos de escrever o nome desse ficheiro numa nova linha dentro do .gitignore
+
+
+Podemos escrever comentários usando #
+
+
+Para ignorarmos todos os ficheiros de um mesmo tipo:
+	- *.txt 
+	apenas precisamos escrever isso no inicio de uma linha nova
+
+Depois disso é só fazer git add e ele já não passa os ficheiros que nao se quer divulgar
+

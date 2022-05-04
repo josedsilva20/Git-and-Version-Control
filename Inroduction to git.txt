@@ -57,3 +57,11 @@ Para descobrirmos quais as diferenças entre a versão alterada e a versão ante
 	- git diff ficheiro
 
 
+Para remover um ficheiro da staging area:
+	- git rm --cached -r ficheiro
+	
+
+Para remover todos os ficheiros da staging area:
+	- git tm --cached -r .
+
+
